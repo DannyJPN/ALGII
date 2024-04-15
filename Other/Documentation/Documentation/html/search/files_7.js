@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['stack_2ecpp',['Stack.cpp',['../_array_based_structures_2_fixed_memory_2_o_o_p_2_stack_8cpp.html',1,'(Globální prostor jmen)'],['../_array_based_structures_2_fixed_memory_2_procedural_2_stack_8cpp.html',1,'(Globální prostor jmen)'],['../_linked_structures_2_o_o_p_2_stack_8cpp.html',1,'(Globální prostor jmen)'],['../_linked_structures_2_procedural_2_stack_8cpp.html',1,'(Globální prostor jmen)']]],
+  ['stack_2eh',['Stack.h',['../_array_based_structures_2_dynamic_memory_2_o_o_p_template_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_array_based_structures_2_fixed_memory_2_o_o_p_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_array_based_structures_2_fixed_memory_2_o_o_p_template_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_array_based_structures_2_fixed_memory_2_procedural_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_linked_structures_2_o_o_p_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_linked_structures_2_o_o_p_template_2_stack_8h.html',1,'(Globální prostor jmen)'],['../_linked_structures_2_procedural_2_stack_8h.html',1,'(Globální prostor jmen)']]]
+];

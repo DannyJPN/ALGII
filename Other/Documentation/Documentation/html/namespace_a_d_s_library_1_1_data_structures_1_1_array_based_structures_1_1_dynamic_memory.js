@@ -1,0 +1,4 @@
+var namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_dynamic_memory =
+[
+    [ "OOPTemplate", "namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_dynamic_memory_1_1_o_o_p_template.html", "namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_dynamic_memory_1_1_o_o_p_template" ]
+];

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1523963700 source:c:\users\dan krupa\dropbox\vsb\alg\alg ii\tree\bstree.cpp
+	"BSTree.hpp"
+	<iostream>
+
+1523963700 c:\users\dan krupa\dropbox\vsb\alg\alg ii\tree\bstree.hpp
+
+1523963713 source:c:\users\dan krupa\dropbox\vsb\alg\alg ii\tree\main.cpp
+	<iostream>
+	"BSTree.hpp"
+

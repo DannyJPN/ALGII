@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ADSLibrary: Zdrojový soubor ADSLibrary/DataStructures/ArrayBasedStructures/FixedMemory/Procedural/Stack.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="ADSLibrary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ADSLibrary
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generováno programem Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Hledat');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Hledat');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_array_based_structures_2_fixed_memory_2_procedural_2_stack_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Stack.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_array_based_structures_2_fixed_memory_2_procedural_2_stack_8h.html">Zobrazit dokumentaci tohoto souboru.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_a_d_s_library.html">ADSLibrary</a></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">namespace </span>DataStructures</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keyword">namespace </span>ArrayBasedStructures</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;            <span class="keyword">namespace </span>FixedMemory</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <span class="keyword">namespace </span>Procedural</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                {</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a3003fe4c6bf91acdc81be582514b68cc">   16</a></span>&#160;                    <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a3003fe4c6bf91acdc81be582514b68cc">StackSize</a> = 100;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">   24</a></span>&#160;                    <span class="keyword">struct </span><a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    {</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a2175217f5a18f75f57866a2ddb37da7b">   29</a></span>&#160;                        <span class="keywordtype">char</span> <a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a2175217f5a18f75f57866a2ddb37da7b">Items</a>[<a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a3003fe4c6bf91acdc81be582514b68cc">StackSize</a>];</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a6c7b66d61617e768742b0aedd2a5c69d">   34</a></span>&#160;                        <span class="keywordtype">int</span> <a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a6c7b66d61617e768742b0aedd2a5c69d">StackPointer</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    };</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    <span class="keywordtype">void</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#afe95ff9efed28fbf19995395004f7ca2">Init</a>(<a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    <span class="keywordtype">void</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ad6f49bbf68b873baaa24a46233edc7ca">Push</a>(<a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S, <span class="keyword">const</span> <span class="keywordtype">char</span> X);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                    <span class="keywordtype">char</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ae48285f3d5421c52bd8227e900c6ca70">Pop</a>(<a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    <span class="keywordtype">char</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a64e9279fd6b9cc4ef92c9ed3786bc742">Top</a>(<span class="keyword">const</span> <a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    <span class="keywordtype">bool</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ac263652f6c99f2635923407e7499b231">IsEmpty</a>(<span class="keyword">const</span> <a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <span class="keywordtype">bool</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#aa88dbbd9093f307d3629106f997b915e">IsFull</a>(<span class="keyword">const</span> <a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <span class="keywordtype">void</span> <a class="code" href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a65eb9a8bbca3f9c3a257d46f827d4a86">Clear</a>(<a class="code" href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">Stack</a>&amp; S);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                }</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div><div class="ttc" id="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack_html"><div class="ttname"><a href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Stack</a></div><div class="ttdoc">Zásobník pevné velikosti implementovaný v poli procedurálním způsobem. </div><div class="ttdef"><b>Definition:</b> Stack.h:24</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_ac263652f6c99f2635923407e7499b231"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ac263652f6c99f2635923407e7499b231">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::IsEmpty</a></div><div class="ttdeci">bool IsEmpty(const Queue &amp;Q)</div><div class="ttdef"><b>Definition:</b> Queue.cpp:43</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_a3003fe4c6bf91acdc81be582514b68cc"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a3003fe4c6bf91acdc81be582514b68cc">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::StackSize</a></div><div class="ttdeci">const int StackSize</div><div class="ttdef"><b>Definition:</b> Stack.h:16</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_a65eb9a8bbca3f9c3a257d46f827d4a86"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a65eb9a8bbca3f9c3a257d46f827d4a86">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Clear</a></div><div class="ttdeci">void Clear(Queue &amp;Q)</div><div class="ttdef"><b>Definition:</b> Queue.cpp:19</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_a64e9279fd6b9cc4ef92c9ed3786bc742"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#a64e9279fd6b9cc4ef92c9ed3786bc742">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Top</a></div><div class="ttdeci">char Top(const Stack &amp;S)</div><div class="ttdef"><b>Definition:</b> Stack.cpp:30</div></div>
+<div class="ttc" id="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack_html_a2175217f5a18f75f57866a2ddb37da7b"><div class="ttname"><a href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a2175217f5a18f75f57866a2ddb37da7b">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Stack::Items</a></div><div class="ttdeci">char Items[StackSize]</div><div class="ttdef"><b>Definition:</b> Stack.h:29</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_ae48285f3d5421c52bd8227e900c6ca70"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ae48285f3d5421c52bd8227e900c6ca70">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Pop</a></div><div class="ttdeci">char Pop(Stack &amp;S)</div><div class="ttdef"><b>Definition:</b> Stack.cpp:24</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_afe95ff9efed28fbf19995395004f7ca2"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#afe95ff9efed28fbf19995395004f7ca2">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Init</a></div><div class="ttdeci">void Init(Queue &amp;Q)</div><div class="ttdef"><b>Definition:</b> Queue.cpp:13</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_ad6f49bbf68b873baaa24a46233edc7ca"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#ad6f49bbf68b873baaa24a46233edc7ca">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Push</a></div><div class="ttdeci">void Push(Stack &amp;S, const char X)</div><div class="ttdef"><b>Definition:</b> Stack.cpp:18</div></div>
+<div class="ttc" id="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_html_aa88dbbd9093f307d3629106f997b915e"><div class="ttname"><a href="namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural.html#aa88dbbd9093f307d3629106f997b915e">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::IsFull</a></div><div class="ttdeci">bool IsFull(const Queue &amp;Q)</div><div class="ttdef"><b>Definition:</b> Queue.cpp:48</div></div>
+<div class="ttc" id="namespace_a_d_s_library_html"><div class="ttname"><a href="namespace_a_d_s_library.html">ADSLibrary</a></div><div class="ttdoc">Kořenový prostor jmen knihovny algoritmů a datových struktur ADSLibrary. </div><div class="ttdef"><b>Definition:</b> ArraysAndPointers.cpp:3</div></div>
+<div class="ttc" id="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack_html_a6c7b66d61617e768742b0aedd2a5c69d"><div class="ttname"><a href="struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html#a6c7b66d61617e768742b0aedd2a5c69d">ADSLibrary::DataStructures::ArrayBasedStructures::FixedMemory::Procedural::Stack::StackPointer</a></div><div class="ttdeci">int StackPointer</div><div class="ttdef"><b>Definition:</b> Stack.h:34</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_ad62024ba3267e108387117ae0160058.html">ADSLibrary</a></li><li class="navelem"><a class="el" href="dir_6a245f73e099b884e044e5d9226304db.html">DataStructures</a></li><li class="navelem"><a class="el" href="dir_b0b0aabac4057419140a998376b9ab70.html">ArrayBasedStructures</a></li><li class="navelem"><a class="el" href="dir_4f9516d170125e8c5cfd78224798f011.html">FixedMemory</a></li><li class="navelem"><a class="el" href="dir_ee3404d85a57fc02169de52715fd3b10.html">Procedural</a></li><li class="navelem"><a class="el" href="_array_based_structures_2_fixed_memory_2_procedural_2_stack_8h.html">Stack.h</a></li>
+    <li class="footer">Generováno programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

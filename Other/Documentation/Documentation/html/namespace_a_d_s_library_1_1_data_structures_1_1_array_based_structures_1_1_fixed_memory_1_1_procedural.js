@@ -1,0 +1,5 @@
+var namespace_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural =
+[
+    [ "Queue", "struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_queue.html", "struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_queue" ],
+    [ "Stack", "struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack.html", "struct_a_d_s_library_1_1_data_structures_1_1_array_based_structures_1_1_fixed_memory_1_1_procedural_1_1_stack" ]
+];

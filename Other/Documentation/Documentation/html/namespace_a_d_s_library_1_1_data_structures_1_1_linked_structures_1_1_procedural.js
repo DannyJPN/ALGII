@@ -1,0 +1,7 @@
+var namespace_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural =
+[
+    [ "Queue", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_queue.html", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_queue" ],
+    [ "QueueItem", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_queue_item.html", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_queue_item" ],
+    [ "Stack", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_stack.html", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_stack" ],
+    [ "StackItem", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_stack_item.html", "struct_a_d_s_library_1_1_data_structures_1_1_linked_structures_1_1_procedural_1_1_stack_item" ]
+];

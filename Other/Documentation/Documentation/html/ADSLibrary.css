@@ -1,0 +1,51 @@
+table#TableOfImplementedDataStructures, th#TableOfImplementedDataStructures, td#TableOfImplementedDataStructures
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+}
+
+td#TableOfImplementedDataStructuresDone
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+	background-color: LightGreen;
+}
+
+td#TableOfImplementedDataStructuresNone
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+	background-color: Gray;
+}
+
+td#TableOfImplementedDataStructuresPending
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+	background-color: PapayaWhip;
+}
+
+td#TableOfImplementedDataStructuresUndecided
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+	background-color: LightSkyBlue;
+}
+
+
+table#ADSLibraryDefaultTableStyle, th#ADSLibraryDefaultTableStyle, td#ADSLibraryDefaultTableStyle
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}

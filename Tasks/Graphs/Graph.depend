@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1522753128 source:c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\graph.cpp
+	"Graph.hpp"
+
+1522148522 c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\graph.hpp
+	"Vertex.hpp"
+	"List.h"
+
+1522753609 c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\vertex.hpp
+
+1522148592 c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\list.h
+	"Vertex.hpp"
+
+1522753644 source:c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\list.cpp
+	"List.h"
+	<stdio.h>
+
+1522148521 source:c:\users\dan krupa\dropbox\vsb\alg\alg ii\graphs\main.cpp
+	<iostream>
+	"Graph.hpp"
+
